@@ -1,0 +1,4 @@
+As a green hand of computer science, this practical is somehow challenging.
+I always forget to save the changes before typing "git add".
+And disruption from another account drives me crazy.
+But I try to solve those problems by asking for help.
