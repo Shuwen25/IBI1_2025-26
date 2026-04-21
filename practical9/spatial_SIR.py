@@ -36,7 +36,7 @@ for step in range(100):
                     if 0 <= ni < 100 and 0 <= nj < 100:
                         if new_pop[ni, nj] == 0:  # only susceptible people can be infected
                             if np.random.rand() < beta:
-                                new_pop[ni, nj] = 1
+                                new_pop[ni, nj] = 1 
 
                 # recovery
                 if np.random.rand() < gamma:
