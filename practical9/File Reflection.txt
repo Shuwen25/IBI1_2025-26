@@ -1,0 +1,9 @@
+Practical 9 Reflection
+
+This practical was both interesting and helpful for understanding epidemic models. Overall, it was not extremely difficult, but some parts required careful thinking, especially fixing small bugs in the code.
+
+The basic SIR model was relatively easy to understand and implement. I enjoyed seeing how the infected curve rises and falls over time, which made the epidemic process clear. The vaccination part was my favorite because I could clearly see how vaccination reduces infection peaks and find the herd immunity threshold. It was satisfying to plot different vaccination rates in one graph.
+
+The spatial SIR model was a bit more challenging because I had to handle grids and neighbors. I spent some time correcting small errors like wrong neighbor directions and plot settings, but once it worked, the heat map looked really cool.
+
+The most important thing I learned is how mathematical models like SIR can simulate real disease spread, how vaccination helps achieve herd immunity, and how spatial structure affects disease transmission. This practical made me understand epidemic models more deeply.
