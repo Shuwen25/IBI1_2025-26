@@ -20,7 +20,6 @@ print("The first row and the forth column of the data set:\n", dalya_data.iloc[0
 
 first_10=dalya_data.iloc[0:10, 2:4]
 print("The first ten rows and the third and fourth columns of the data set:\n", first_10)  #check the first ten rows and the third and fourth columns of the data set (Year and DALYs)
-print(first_10)
 
 # The year of biggest DALYs in Afghanistan in the first 10 rows
 # answer: 1990, which is the first row of the data set
