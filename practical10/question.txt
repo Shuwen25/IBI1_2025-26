@@ -1,4 +1,5 @@
-Question: What was the country with the highest DALYs rate in 2019?
-Line number in dalys.py: Line 46
-Discussion: The code filters the dataset for the year 2019 and finds the country with the maximum DALYs value. 
-            The result shows which country had the highest disease burden in that year, reflecting large differences in health conditions across countries.
+Question: What was the distribution of DALYs across all countries in 2019?
+Line number: Line 63-70
+Discussion: The boxplot shows the overall distribution of DALYs rates in 2019 across all countries, including the median, quartiles, and potential outliers. 
+            Most countries have a medium DALYs level, while a few countries have very high DALYs (outliers). 
+            The distribution is right-skewed, meaning most countries cluster at lower to medium values.

@@ -54,7 +54,17 @@ country_data = dalya_data.loc[dalya_data["Entity"] == min_country] #select the d
 plt.plot(country_data["Year"], country_data["DALYs"])  #plot the lowest DALYs in every year
 plt.xlabel("Year")  #set the x label
 plt.ylabel("DALYs")  #set the y label
-plt.title("DALYs of " + min_country + " in every year")  #set the title of the plot
+plt.title("DALYs of " + min_country + " in every year")  # set the title of the plot
 plt.show()  #show the plot
 
 
+# Extra question: Distribution of DALYs across all countries in 2019
+# Line: 63-70
+data_2019 = dalya_data[dalya_data["Year"] == 2019]
+
+plt.figure(figsize=(8, 5))
+plt.boxplot(data_2019["DALYs"], vert=False)
+plt.xlabel("DALYs rate")
+plt.title("Distribution of DALYs across all countries in 2019")
+plt.tight_layout()
+plt.show()
